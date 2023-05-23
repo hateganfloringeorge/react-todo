@@ -1,2 +1,2 @@
 # react-todo
-TODO list application to get familiar with React
+TODO list application to get familiar with React!
