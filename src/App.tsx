@@ -1,21 +1,21 @@
 function App() {
   return (
     <>
-      <form>
-        <div>
-          <label>Add task</label>
-          <input />
+      <form className="form-todo-item">
+        <div className="form-row">
+          <label htmlFor="form-input">Add task</label>
+          <input type="text" id="form-input" />
         </div>
-        <button>Add</button>
+        <button className="btn">Add</button>
       </form>
-      <h1>Todo List</h1>
-      <ul>
-        <li>
-          <label>
-            <input type="checkbox" />
+      <h1 className="header-list">Todo List</h1>
+      <ul className="items-list">
+        <li className="todo-item">
+          <label className="item-label">
+            <input type="checkbox" id="item-checkbox" />
             TODO 1
           </label>
-          <button>Delete</button>
+          <button className="btn btn-delete">Delete</button>
         </li>
       </ul>
     </>
